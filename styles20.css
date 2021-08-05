@@ -1,0 +1,344 @@
+.page-wrap {
+  background: #fff;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+/* поменять */
+h1,
+h2,
+h3, body, label {
+ font-family: 'Roboto', sans-serif;
+}
+
+/* footer */
+.footer {
+    padding-top: 110px;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    /* background: #ecf0f1 url(images/footer.png) 50% top no-repeat; */
+    background: url(images/footer.png) 50% top
+      no-repeat;
+}
+.footer {
+    height: 180px;
+}
+footer {
+    position: relative;
+}
+
+#borderForm{
+  position: relative;
+  box-sizing: border-box;
+  /* top: 30px; */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 48px;
+  overflow: auto;
+  /* background-color: #fff; */
+  /* background-color: #ebeef1; */
+  /* background-color: #fff3e1; */
+  background-color: #fff8ef;
+  /* #e3e3e3 */
+  border: 1px solid #fff8ef;
+  border-radius: 16px;
+  text-align: left;
+
+}
+
+body{
+  /* background-color: #ebeef1; */
+  background-color: #fff;
+}
+/* стили из шаблона сайта начало */
+body {
+  /* background: #ebeef1; */
+  font-size: 16px;
+  line-height: 1.375;
+  color: #678;
+  position: relative;
+
+}
+
+/* footer, #mob-menu не добавляла */
+footer,
+header,
+div,
+img,
+section,
+h1,
+h2,
+a,
+ p, ul, body, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  /* font-family: inherit; */
+  font-family: 'Roboto', sans-serif;
+  vertical-align: baseline;
+}
+:focus {
+  outline: 0;
+}
+
+footer {
+  display: block;
+}
+
+/* добавила */
+footer a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid #c9cfd5;
+}
+footer a:hover {
+    /* color: #678; */
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+}
+footer {
+  position: relative;
+}
+footer .wrap {
+  overflow: hidden;
+}
+footer p,
+footer ul li {
+  font-size: 14px;
+  line-height: 1.28571429;
+}
+
+.footer .wrap,
+header .wrap {
+  padding: 0 15px;
+}
+/* .footer {
+  margin: 30px 0;
+} */
+.footer p {
+  margin-top: 30px;
+  font-size: 13px;
+}
+.footer .wrap {
+  padding: 0;
+}
+.footer {
+  height: 180px;
+}
+.footer {
+  padding-top: 110px;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  /* background: #ecf0f1 url(images/footer.png) 50% top
+    no-repeat; */
+    background: url(images/footer.png) 50% top
+      no-repeat;
+}
+.footer ul li {
+  display: inline;
+  margin: 0 8px;
+}
+.footer a.img-link {
+  float: right;
+  border-bottom: 0;
+}
+@media screen and (min-width: 569px) and (max-width: 768px) {
+  .footer {
+    padding: 30px 15px;
+    background-image: none;
+  }
+  .footer ul li {
+    margin: 0 16px 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer p small {
+    display: block;
+    font-size: 11px;
+    margin: 20px 0;
+    opacity: 0.6;
+  }
+
+}
+@media screen and (min-width: 769px) {
+  .wrap {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+  .footer .wrap,
+  .home .wrap,
+  header .wrap {
+    padding: 0 20px;
+  }
+  .footer h4 {
+    display: none;
+  }
+  .footer p,
+  .footer ul {
+    margin: 0;
+    text-align: left;
+  }
+  .footer ul {
+    float: none;
+  }
+  .footer ul li {
+    display: inline-block;
+    margin-right: 16px;
+  }
+  .lte7 .footer ul li {
+    display: inline;
+  }
+  .footer ul li:last-child {
+    margin-right: 0;
+  }
+  .footer p {
+    margin-top: 0.5em;
+    margin-left: 7px;
+  }
+  .footer p small {
+    display: block;
+    font-size: 12px;
+    margin: 30px 0;
+    text-align: center;
+  }
+}
+
+/* стили из шаблона сайта конец */
+
+.leaflet-popup-close-button{
+  display: none;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 4px !important;
+}
+
+.row {
+ display:flex;
+ flex-wrap:wrap;
+ margin-right:-15px;
+ margin-left:-15px
+}
+
+.col-md {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.col-md {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.order-md-last {
+    order: 13;
+}
+
+.content_map {
+    height: 400px;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+
+/* doesn't work
+.rc-anchor-light {
+    color: inherit;
+} */
+
+
+.button-wrapper {
+  text-align: center;
+}
+
+/* body */
+.centered-content {
+    width: 66.66666667%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+section {
+    display: block;
+}
+
+.row::after,
+.row::before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.section-heading {
+    margin-bottom: 32px;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 32px;
+line-height: 1.1875;
+color: #2a3b51;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: #2a3b51;
+font-weight: 400;
+}
+
+.content p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* ol, p, ul { */
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: #2a3b51;
+    text-decoration: none;
+    border-bottom: 1px solid #c9cfd5;
+}
+
+a:hover {
+  text-decoration: none;
+    border-color: #678;
+    color: #678;
+}
+.row::after {
+    clear: both;
+}
+
+#personalInfo {
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#personalInfo .edit {
+  display: none;
+}
+
+#personalInfo.edit .edit {
+display: initial;
+}
+
+#personalInfo.edit .noedit {
+display: none; 
+}
