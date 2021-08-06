@@ -7,18 +7,18 @@
 </p>
 
 #### Registration
-##### - Register page
+- Register page
 <p align="center">
   <img alt="main page" src="Screenshots/Register.png" width = 70%>
 </p>
 
-##### - JS Validation
+- JS Validation
 <p align="center">
   <img alt="main page" src="Screenshots/Register.gif" width = 70%>
 </p>
 
 #### Sign in
-##### - Sign in page
+- Sign in page
 <p align="center">
   <img alt="main page" src="Screenshots/Sign_in.png" width = 70%>
 </p>
