@@ -34,7 +34,7 @@ $(document).ready(function() {
         pError = false;
 
         if (fullname == "") {
-            $('#fullname_warning_message').html('Fullname should be filled');
+            $('#fullname_warning_message').html('Full name should be filled');
             $("#fullname_warning_message").switchClass("d-none", "d-block");
             pError = true;
         } else {
@@ -75,7 +75,7 @@ $(document).ready(function() {
 
                     $('#fullname').val('');
                     $('#email').val('');
-                    $('#password').val('');                    
+                    $('#password').val('');
 
 
                     Swal.fire(
