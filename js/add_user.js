@@ -79,7 +79,7 @@ $(document).ready(function() {
 
 
                     Swal.fire(
-                        'Congradulations!',
+                        'Congratulations!',
                         'Record has just been inserted',
                         'success'
                     )

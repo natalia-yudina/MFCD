@@ -75,7 +75,7 @@ $(document).ready(function() {
             pError = false;
 
             if (fullname == "") {
-                $('#fullname_warning_message').html('Fullname should be filled');
+                $('#fullname_warning_message').html('Full name should be filled');
                 $("#fullname_warning_message").switchClass("d-none", "d-block");
                 pError = true;
             } else {
@@ -134,7 +134,7 @@ $(document).ready(function() {
                         $('#recordEmail_' + id).html(email);
                         $('#recordPassword_' + id).html(password);
                         $('#recordIsACompany_' + id).html(pIsACompany);
-                        $('#recordRole_' + id).html(role_string);                        
+                        $('#recordRole_' + id).html(role_string);
                         $('#myModal').modal('hide');
                     } else {
                         $("#message").switchClass("d-none", "d-block");
