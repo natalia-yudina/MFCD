@@ -18,7 +18,7 @@
 </p>
 
 #### Sign in
-#### - Sign in page
+##### - Sign in page
 <p align="center">
   <img alt="main page" src="Screenshots/Sign_in.png" width = 70%>
 </p>
